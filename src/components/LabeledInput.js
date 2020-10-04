@@ -13,6 +13,7 @@ const LabeledInput = (props) => {
 				type={props.type}
 				name={props.name}
 				id={props.id || props.label}
+				onChange={props.onChange}
 			/>
 			<br />
 		</React.Fragment>
